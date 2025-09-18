@@ -1,5 +1,3 @@
-"use client"
-
 /**
  * Reusable Input component with validation support
  */

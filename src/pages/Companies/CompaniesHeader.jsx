@@ -1,4 +1,3 @@
-"use client"
 import Button from "../../ui/Button"
 import { IoSearch, IoFunnel, IoDownload, IoAdd } from "react-icons/io5"
 

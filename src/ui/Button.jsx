@@ -1,5 +1,3 @@
-"use client"
-
 /**
  * Reusable Button component with multiple variants
  */
