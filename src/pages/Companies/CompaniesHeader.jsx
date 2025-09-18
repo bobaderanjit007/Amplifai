@@ -32,19 +32,19 @@ const CompaniesHeader = ({
             />
           </div>
 
-          <Button variant="outline" size="md" className="flex items-center space-x-2 bg-transparent border-1 border-[#00a8e8]">
+          <Button variant="outline" size="md" className="flex items-center space-x-2 bg-transparent border-1 !border-[#00a8e8]">
             <IoFunnel size={17} className="text-[#00a8e8]" />
           </Button>
         </div>
 
         {/* Right Side - Actions */}
         <div className="flex items-center space-x-3">
-          <Button variant="outline" size="md" className="flex items-center space-x-2 bg-transparent border-1 border-[#00a8e8]">
+          <Button variant="outline" size="md" className="flex items-center space-x-2 bg-transparent border-1 !border-[#00a8e8]">
             <IoDownload size={16} className="text-[#00a8e8]" />
             <span className="text-[#00a8e8]">Export</span>
           </Button>
 
-          <Button variant="outline" size="md" onClick={onAddCompany} className="flex items-center space-x-2 border-1 border-[#00a8e8]">
+          <Button variant="outline" size="md" onClick={onAddCompany} className="flex items-center space-x-2 border-1 !border-[#00a8e8]">
             <IoAdd size={16} className="text-[#00a8e8]" />
             <span className="text-[#00a8e8]">Add Company</span>
           </Button>
