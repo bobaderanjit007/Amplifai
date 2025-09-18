@@ -18,7 +18,7 @@ const Dashboard = () => {
       {/* Main Content */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Header */}
-        <Header title="Dashboard" subtitle="FY (2024-2025)" />
+        <Header title="Dashboard" dropMenu={true} />
 
         {/* Dashboard Content */}
         <main className="flex-1 overflow-y-auto p-6">

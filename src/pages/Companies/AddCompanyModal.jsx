@@ -78,7 +78,7 @@ const AddCompanyModal = ({ isOpen, onClose, onAddCompany }) => {
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={handleClose} title="Add New Company" size="lg">
+    <Modal isOpen={isOpen} onClose={handleClose} title="Add New Company" size="lg" className="rounded-[8px]">
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Company Name */}
         <Input
@@ -185,16 +185,6 @@ const AddCompanyModal = ({ isOpen, onClose, onAddCompany }) => {
           </Button>
         </div>
       </form>
-
-      {/* Form Guidelines */}
-      <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-        <h4 className="text-sm font-medium text-gray-900 mb-2">Format Guidelines:</h4>
-        <ul className="text-xs text-gray-600 space-y-1">
-          <li>• Revenue/Profit/EBITDA: Use format like €245M, €1.5B, or -€10M for losses</li>
-          <li>• Gross Margin: Use percentage format like 28.5% or 15.2%</li>
-          <li>• Key Insights: Separate multiple insights with commas</li>
-        </ul>
-      </div>
     </Modal>
   )
 }

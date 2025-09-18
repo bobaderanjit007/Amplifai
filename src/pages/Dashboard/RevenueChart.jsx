@@ -18,7 +18,7 @@ import { FaChartLine } from "react-icons/fa6";
  */
 const RevenueChart = () => {
   return (
-    <Card className="p-6 rounded-[7px]">
+    <Card className="p-6 rounded-[8px]">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h3 className="text-lg font-semibold text-gray-900 flex items-center">
