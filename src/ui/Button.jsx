@@ -12,7 +12,7 @@ const Button = ({
   ...props
 }) => {
   const baseClasses =
-    "inline-flex items-center justify-center font-medium rounded-[8px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+    "inline-flex items-center justify-center font-medium rounded-[7px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
 
   const variants = {
     primary: "bg-[#00a8e8] hover:bg-[#0092e8] text-white",

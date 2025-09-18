@@ -36,7 +36,7 @@ const MetricsCards = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {metrics.map((metric, index) => (
-        <Card key={index} className="p-6 rounded-[8px]">
+        <Card key={index} className="p-6 rounded-[7px]">
           <div className="space-y-2">
             <p className="text-sm font-medium text-gray-600">{metric.title}</p>
             <div className="flex items-end justify-between">

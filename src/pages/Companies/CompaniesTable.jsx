@@ -38,7 +38,7 @@ const CompaniesTable = ({
   };
 
   return (
-    <Card className="p-0 overflow-hidden rounded-[8px]">
+    <Card className="p-0 overflow-hidden rounded-[7px]">
       {/* Table */}
       <div className="overflow-x-auto">
         {/* Pagination */}

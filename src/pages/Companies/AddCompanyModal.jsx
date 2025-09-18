@@ -76,7 +76,7 @@ const AddCompanyModal = ({ isOpen, onClose, onAddCompany }) => {
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={handleClose} title="Add New Company" size="lg" className="rounded-[8px]">
+    <Modal isOpen={isOpen} onClose={handleClose} title="Add New Company" size="lg" className="rounded-[7px]">
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Company Name */}
         <Input

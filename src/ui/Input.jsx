@@ -26,7 +26,7 @@ const Input = ({
         value={value}
         onChange={onChange}
         className={`
-          w-full px-3 py-2 border border-gray-300 rounded-[8px] shadow-sm 
+          w-full px-3 py-2 border border-gray-300 rounded-[7px] shadow-sm 
           placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00a8e8] 
           focus:border-[#00a8e8] transition-colors
           ${error ? "border-red-500 focus:ring-red-500 focus:border-red-500" : ""}

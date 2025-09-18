@@ -49,7 +49,7 @@ const Header = ({ title, dropMenu = false }) => {
             <select
               value={subtitle}
               onChange={(e) => setSubtitle(e.target.value)}
-              className="ml-2 border border-gray-300 rounded-[8px] py-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+              className="ml-2 border border-gray-300 rounded-[7px] py-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             >
               <option value="FY (2024-2025)">FY (2024-2025)</option>
               <option value="FY (2023-2024)">FY (2023-2024)</option>
